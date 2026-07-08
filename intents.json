@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "assalam o alaikum"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Welcome to our chatbot.",
+        "Assalam-o-Alaikum! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you"],
+      "responses": [
+        "I am an AI Chatbot built using Python and Flask."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "can you help me"],
+      "responses": [
+        "Of course! Ask me any question."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "current time", "time"],
+      "responses": [
+        "Sorry, I can't show the current time yet, but this feature can be added."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": ["today date", "what is today's date", "date"],
+      "responses": [
+        "Sorry, I can't show the current date yet, but this feature can be added."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "your developer"],
+      "responses": [
+        "I was created as a Python Flask AI Chatbot project."
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": ["what can you do", "your purpose", "why are you here"],
+      "responses": [
+        "I can answer predefined questions and assist users instantly."
+      ]
+    },
+{
+  "tag": "python",
+  "patterns": ["python", "what is python"],
+  "responses": [
+    "Python is a powerful programming language used for web development, AI and automation."
+  ]
+},
+{
+  "tag": "flask",
+  "patterns": ["flask", "what is flask"],
+  "responses": [
+    "Flask is a lightweight Python web framework used to build web applications."
+  ]
+},
+{
+  "tag": "ai",
+  "patterns": ["what is ai", "artificial intelligence", "ai"],
+  "responses": [
+    "Artificial Intelligence enables computers to perform tasks that normally require human intelligence."
+  ]
+},
+{
+  "tag": "cloud",
+  "patterns": ["cloud computing", "what is cloud computing"],
+  "responses": [
+    "Cloud computing provides computing resources like servers and storage over the internet."
+  ]
+},
+{
+  "tag": "joke",
+  "patterns": ["tell me a joke", "joke"],
+  "responses": [
+    "Why do programmers prefer dark mode? Because light attracts bugs!"
+  ]
+}
+
+  ]
+}
